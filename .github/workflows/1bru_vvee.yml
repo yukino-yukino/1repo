@@ -22,7 +22,7 @@ jobs:
           dotnet-version: '8.0'
 
       - name: Build with dotnet
-        run: dotnet build https://github.com/users/yukino-yukino/projects/1
+        run: dotnet build project
 
       - name: dotnet publish
         run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp
