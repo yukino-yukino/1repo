@@ -19,10 +19,10 @@ jobs:
       - name: Set up .NET Core
         uses: actions/setup-dotnet@v4
         with:
-          dotnet-version: '8.0'
+          dotnet-version: '8.ⅹ'
 
       - name: Build with dotnet
-        run: dotnet build --configuration Release
+        run: dotnet build --https://github.com/users/yukino-yukino/projects/1
 
       - name: dotnet publish
         run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp
